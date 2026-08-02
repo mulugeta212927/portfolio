@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mulat Berihun | Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Muler<span>Tech</span></div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Hi, I'm <span class="highlight">Mulat Berihun</span></h1>
+        <p>Software Engineering Student & Aspiring Web Developer</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>
+            I am a 2nd-year Software Engineering student at Wollo University. 
+            I am passionate about building clean web applications using HTML, CSS, JavaScript, and learning Python/Django for backend development.
+        </p>
+    </section>
+
+    <section id="skills" class="container bg-light">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">HTML5 & CSS3</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">Python</div>
+            <div class="skill-card">Django (Learning)</div>
+            <div class="skill-card">Git & GitHub</div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>To-Do List App</h3>
+                <p>A simple dynamic task list management app built with JS.</p>
+            </div>
+            <div class="project-card">
+                <h3>Calculator App</h3>
+                <p>Interactive web calculator for basic mathematical operations.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container bg-light">
+        <h2>Get In Touch</h2>
+        <p>Feel free to reach out for collaborations, questions, or project ideas!</p>
+
+        <div class="contact-links">
+            <a href="https://t.me/Mulat212329" target="_blank" class="contact-card telegram">
+                📱 Telegram: <span>@Mulat212329</span>
+            </a>
+            <a href="mailto:bmulat473@gmail.com" class="contact-card email">
+                📧 Email: <span>bmulat473@gmail.com</span>
+            </a>
+            <a href="https://github.com/mulugeta212927" target="_blank" class="contact-card github">
+                💻 GitHub Profile
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Mulat Berihun (MulerTech). All rights reserved.</p>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
